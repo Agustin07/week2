@@ -1,0 +1,24 @@
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "This is a textEditor app test",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "@types/minimist": "^1.2.0",
+    "minimist": "^1.2.5",
+    "yargs": "^15.3.2-beta.0"
+  },
+  "bin": {
+    "week2": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "@types/yargs": "^15.0.4",
+    "ts-node": "^8.10.1"
+  }
+}
